@@ -1,0 +1,109 @@
+{
+ "name": "CelebVis",
+ "children": [
+  {
+   "name": "Milk PEP",
+   "children": [
+    {
+     "name": "Milk",
+     "children": [
+      {"name": "Abdulmajid, Iman", "size": 3938},
+      {"name": "Alba, Jessica", "size": 3812},
+      {"name": "Aniston, Jennifer", "size": 3820},
+      {"name": "Campbell, Neve", "size": 3830},
+      {"name": "Black, Clint", "size": 3835},
+      {"name": "Bleeth, Yasmine", "size": 3840},
+      {"name": "Bleu, Corbin", "size": 3845},
+      {"name": "Boesch, Rudy", "size": 3850}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PepsiCo",
+   "children": [
+    {"name": "Pepsi", "size": 17010},
+    {"name": "Gatorade", "size": 5842},
+    {
+     "name": "Quaker Oats...",
+     "children": [
+      {"name": "Cosgrove, Miranda", "size": 2042}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "TCCC",
+   "children": [
+    {
+     "name": "ZICO",
+     "children": [
+      {"name": "Alba, Jessica", "size": 2220}
+     ]
+    },
+    {"name": "Smartwater", "size": 1759},
+    {"name": "NCB", "size": 2165},
+    {"name": "Glaceau's Vitaminwater", "size": 586}
+   ]
+  },
+  {
+   "name": "PHA",
+   "children": [
+    {"name": "FNV", "size": 8833},
+    {"name": "Drink UP Campaign", "size": 1732}
+   ]
+  },
+  {
+   "name": "Pabst Brewing Company",
+   "children": [
+    {"name": "Blast Colt 45", "size": 4116}
+   ]
+  },
+  {
+   "name": "3G Capital",
+   "children": [
+    {"name": "Burger King", "size": 1082}
+   ]
+  },
+  {
+   "name": "CKE Restaurants",
+   "children": [
+    {
+     "name": "Carl's Jr",
+     "children": [
+      {"name": "Agdal, Nina", "size": 593}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hanson Brothers Beer Company",
+   "children": [
+    {"name": "MmmHop", "size": 2105}
+   ]
+  },
+  {
+   "name": "Coors Brewing Company",
+   "children": [
+    {
+     "name": "Coors Light",
+     "children": [
+      {"name": "Jackson, O'Shea  Ice Cube", "size": 9354}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Willlie Nelson",
+   "children": [
+    {
+     "name": "Whiskey River Bourbon",
+     "children": [
+      {"name": "Nelson , Willlie ", "size": 1302}
+     ]
+    },
+    {"name": "Visualization", "size": 16540}
+   ]
+  }
+ ]
+}
