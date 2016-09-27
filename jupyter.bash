@@ -8,7 +8,6 @@ CMD3="ssh -N -f -L localhost:7777:localhost:7777 username@anvil.sv.vt.edu"
 # ssh to Anvil, and check if a jupyter notebook is 
 # already running under your name
 var=$(ssh $username@128.173.49.135 ps -ef | grep jupyter | grep $username | awk '{print $1, $11}')
-#var=$(ssh $username@128.173.49.135 $CMD2) 
 echo $var
 
 # if jupyter is not running, start a new notebook
