@@ -26,3 +26,7 @@ fi
 
 pkill -f localhost
 xterm -hold -e $CMD2
+
+# Open web browser on localhost and port 7777
+xdg-open http://localhost:7777
+
