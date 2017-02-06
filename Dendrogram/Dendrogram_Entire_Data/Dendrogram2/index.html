@@ -27,13 +27,13 @@
    <body>
    <font color="red", size="4">Click <a href =
            "http://vis.arc.vt.edu/Kraak/Dendrogram/Legends/" target="_blank">HERE</a> for the abbreviations and acronyms.</font> 
-   <font color="red">	<pre>	      	                Company Type	             Company	            Product Category		 Product Subcategory		   Brands	          Celebrity Category		    Name</pre></font>
+   <font color="red">	<pre>                            Product Category	       Product Subcategory	          Company		      Brands		    Celebrity Category                  Name</pre></font>
       <div id="body">
       </div>
 
       <script type="text/javascript">
          var m = [20, 120, 20, 120],
-             w = 2550 - m[1] - m[3],
+             w = 2250 - m[1] - m[3],
              h = 1800 - m[0] - m[2],
              i = 0,
              root;
@@ -51,7 +51,7 @@
            .append ("svg:g")
              .attr ("transform", "translate(" + m[3] + "," + m[0] + ")");
 
-         d3.json ("dendrogram2_fnv.json", function(json) {
+         d3.json ("dendrogram1_fnv.json", function(json) {
            root = json;
            root.x0 = h / 2;
            root.y0 = 0;
